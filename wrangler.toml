@@ -1,0 +1,9 @@
+name = "example" # todo
+main = "build/worker/shim.mjs"
+compatibility_date = "2022-01-20"
+
+[vars]
+XXXX = ""
+
+[build]
+command = "cargo install -q worker-build --version 0.0.7 && worker-build --release"
